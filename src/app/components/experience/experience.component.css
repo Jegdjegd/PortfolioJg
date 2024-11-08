@@ -1,0 +1,67 @@
+
+.caja-principal {
+  border-radius: 50px;
+  margin-left: 1.5vw;
+  margin-top: 10vh;
+  text-align: start;
+  box-shadow:  -16px -20px 32px #131c25, 0 1px 35px #243443;
+  background: linear-gradient(315deg, #1c2a37, #17232e);
+}
+.contenedor-trasero {
+  width: 100%;
+  height: 100%;
+  --color: rgba(114, 114, 114, 0.020);
+  background-color: rgba(25, 26, 26, 0.017);
+  background-image: linear-gradient(
+    0deg,
+    transparent 24%,
+    var(--color) 25%,
+    var(--color) 26%,
+    transparent 27%,
+    transparent 74%,
+    var(--color) 75%,
+    var(--color) 76%,
+    transparent 77%,
+    transparent
+  ),
+  linear-gradient(
+    90deg,
+    transparent 24%,
+    var(--color) 25%,
+    var(--color) 26%,
+    transparent 27%,
+    transparent 74%,
+    var(--color) 75%,
+    var(--color) 76%,
+    transparent 77%,
+    transparent
+  );
+  background-size: 55px 55px;
+  z-index: 2;
+}
+.titulo {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2em;
+}
+.subs{
+      font-family: "Source Code Pro", monospace;
+      font-optical-sizing: auto;
+      font-weight: 200;
+      font-style: normal;
+      margin-top: -0.5175rem;
+      margin-bottom: 1.8rem;
+}
+.verMas{
+  width: 90%; 
+  height: 85vh;    
+  overflow-y: scroll; 
+  scrollbar-width: none; 
+}
+
+
+.example-card-footer {
+  padding: 16px;
+}

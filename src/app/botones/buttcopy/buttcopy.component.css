@@ -1,0 +1,26 @@
+.button-cv {
+    margin-top: 1vh;
+    display: flex;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    list-style: none;
+    background-color: transparent;
+}
+  
+  .button-cv:hover {
+    transform: translateY(-4px);
+    transform: scale(1.3);
+  }
+  .button-cv:active {
+    transform: translateY(2px);
+  }
+  
+
+  .gift-doc {
+    width:3.5vw; 
+    height: auto;
+  }
+  
+
+  

@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    color: white;
+    background-color: #1A2733;
+}
+
+.fondo {
+    background-color: #1A2733;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.036) 2px,transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

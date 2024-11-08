@@ -1,0 +1,25 @@
+a{
+    list-style: none;
+    all: unset;
+}
+a:hover{
+cursor: pointer;
+color: white;
+}
+.btn-link:active{
+    color: white; 
+}
+.subs{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+.titulo {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
